@@ -1,10 +1,22 @@
 # AudioProject
+Working title
 A space for working on my pc volume control solution
 
-It's currently working in python, but the visual lag is annoying. I'm trying to write up a program in C# or C++ that'll fix lag issues in Windows.
+### Introduction
+I wanted to control the volume of different applications on my pc using hardware (because software is too easy). Using four slide potentiometers and an arduino, this program allows one to control the master volume and three apps in Windows. 
 
-# Future Work
-add python code
-if sticking with python, make an app (for customizability)
-develop C code
-switch from arduino to PIC18 (need to find reliable way to communicate via USB first)
+### Dependencies
+
+[pycaw](https://github.com/AndreMiras/pycaw) - managing Windows Audio
+[pyfirmata2](https://pypi.org/project/pyFirmata2/) - communication with Arduino micro
+[PySimpleGUIQt](https://pypi.org/project/PySimpleGUI/) - system tray icon usage
+
+### Future Work
+ * Build GUI with drag and drop icons for connecting apps to faders
+ * switch from arduino to PIC18 (need to find reliable way to communicate via USB first)
+ * reduce lag 
+ * add a photos of hardware and circuit diagrams
+
+## Authors
+
+Keith Sponsler
