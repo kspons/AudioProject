@@ -8,7 +8,9 @@ I wanted to control the volume of different applications on my pc using hardware
 ### Dependencies
 
 [pycaw](https://github.com/AndreMiras/pycaw) - managing Windows Audio
+
 [pyfirmata2](https://pypi.org/project/pyFirmata2/) - communication with Arduino micro
+
 [PySimpleGUIQt](https://pypi.org/project/PySimpleGUI/) - system tray icon usage
 
 ### Future Work
